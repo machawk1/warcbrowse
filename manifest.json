@@ -1,0 +1,11 @@
+{
+   "content_scripts": [ {
+      "js": [ "js/jquery.js", "js/foo.js"],
+      "matches": [ "file://*/*.warc" ]
+   } ],
+   "description": "Foo",
+  "manifest_version": 2,
+   "name": "Foo",
+   "permissions": [ "storage", "tabs", "\u003Call_urls>" ],
+   "version": "0.1"
+}
